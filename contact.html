@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- WEBSITE ICO -->
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- robot font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Lobster font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Swìlam Recipes | | Contact Page</title>
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <div class="logo">
+            <a href="index.html"><span>Swìlam</span>Recipes</a>
+          </div>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!-- LINKS -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+    <!-- START Main -->
+    <div class="main-wrapper">
+      <section class="contact-container">
+        <div class="contact-text">
+          <h3>Want To Get In Touch?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+            dolore ad ratione voluptate facilis et!
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+            eligendi hic cumque voluptas totam nisi! Voluptates nisi
+            exercitationem consequatur voluptatem.
+          </p>
+        </div>
+        <form class="form contact-form">
+          <div class="form-row">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" name="name" id="name" class="form-input" />
+          </div>
+          <div class="form-row">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="text" name="email" id="email" class="form-input" />
+          </div>
+          <div class="form-row">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              name="massage"
+              id="mesage"
+              class="form-textarea"
+            ></textarea>
+          </div>
+          <button class="btn btn-block">Sumbit</button>
+        </form>
+      </section>
+      <!-- START Recommandation -->
+      <div class="recommandation">
+        <div class="reco-text">
+          <h4>Our Recommandation for you</h4>
+        </div>
+        <div class="cards-container">
+          <!-- START of Card -->
+          <a href="recipes.html" class="recipe-card">
+            <img src="./assets/recipes/recipe-7.jpg" alt="recipe" class="img" />
+            <h5>B’stilla(or Pastilla)</h5>
+            <p>Prep : 10min | Cook : 21min</p>
+          </a>
+          <!-- END of Card -->
+          <!-- START of Card -->
+          <a href="recipes.html" class="recipe-card">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              alt="recipe"
+              class="img"
+            />
+            <h5>Banana Pancakes</h5>
+            <p>Prep : 10min | Cook : 21min</p>
+          </a>
+          <!-- END of Card -->
+          <!-- START of Card -->
+          <a href="recipes.html" class="recipe-card">
+            <img src="./assets/recipes/recipe-8.jpg" alt="recipe" class="img" />
+            <h5>Shawarma</h5>
+            <p>Prep : 10min | Cook : 21min</p>
+          </a>
+          <!-- END of Card -->
+        </div>
+      </div>
+      <!-- END Recommandation -->
+    </div>
+    <!-- end Main -->
+    <!-- START Footer -->
+    <footer>
+      <p>
+        &copy; <span id="date"></span>
+        <span id="yellow">Swìlam Recipes.</span> Build with
+        <i id="yellow" class="far fa-heart"></i>
+      </p>
+    </footer>
+    <!-- end Footer -->
+    <!-- JavaScript -->
+    <script src="Jscript.js"></script>
+  </body>
+</html>
